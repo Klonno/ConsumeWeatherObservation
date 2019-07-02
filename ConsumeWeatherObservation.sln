@@ -3,9 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29020.237
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumeWeatherObservation", "ConsumeWeatherObservation\ConsumeWeatherObservation.csproj", "{B011A8EF-71FA-420F-AC99-DC33F00145B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumeWeatherObservation", "ConsumeWeatherObservation\ConsumeWeatherObservation.csproj", "{B011A8EF-71FA-420F-AC99-DC33F00145B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{769F977A-E8D8-49EA-B7D9-89F9EEC5BB9D}"
+	ProjectSection(SolutionItems) = preProject
+		AddSharedProjectAsGitSubmodule.txt = AddSharedProjectAsGitSubmodule.txt
+	EndProjectSection
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedProject", "SharedProject\SharedProject\SharedProject.shproj", "{3380F5C3-743C-4ACD-8EB8-43EBECF319A4}"
 EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedProject\SharedProject\SharedProject.projitems*{3380f5c3-743c-4acd-8eb8-43ebecf319a4}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU

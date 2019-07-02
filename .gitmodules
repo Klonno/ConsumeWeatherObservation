@@ -1,0 +1,6 @@
+[submodule "ConsumeWeatherObservation/SharedProject"]
+	path = ConsumeWeatherObservation/SharedProject
+	url = https://github.com/Klonno/SharedProject.git
+[submodule "SharedProject"]
+	path = SharedProject
+	url = https://github.com/Klonno/SharedProject.git
