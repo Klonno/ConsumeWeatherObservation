@@ -14,3 +14,8 @@ warning: LF will be replaced by CRLF in .gitmodules.
 The file will have its original line endings in your working directory
 
 C:\Users\us53726\source\repos\ConsumeWeatherObservation\ConsumeWeatherObservation>
+
+
+Add git submodule (above). 
+Add .shproj like above.
+example: Add new file to SharedProject submodule: the file shows up as part of the SharedProject, but does not show as added or edited (source control icon). Shows as locked.
